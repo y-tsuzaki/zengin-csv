@@ -1,0 +1,15 @@
+{
+  "name": "zengin-csv",
+  "version": "1.0.0",
+  "description": "CSV file generator for Zengincode/zengin-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen" : "node src/generate_csv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zengin-code": "^1.0.0-p20241029"
+  }
+}
