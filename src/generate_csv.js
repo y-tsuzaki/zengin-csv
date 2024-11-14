@@ -41,8 +41,9 @@ const fs = require('fs');
     if (!fs.existsSync(path)) {
         fs.mkdirSync(path, { recursive: true });
     } 
-    fs.writeFileSync(path + 'banks.csv', csvContent);
+    const filename = 'zengin-code.csv'
+    fs.writeFileSync(path + 'filename', csvContent);
 
-    console.log('CSVファイルが生成されました: banks.csv');
+    console.log('CSVファイルが生成されました: ' . filename);
 })()
 
